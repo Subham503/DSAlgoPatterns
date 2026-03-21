@@ -26,3 +26,6 @@ Similarly to 1-D DP, naive recursion with two moving pointers/indices results in
 - **Dungeon Game**: A backward Grid DP problem where constraints (HP must be > 0 at all times) strictly enforce bottom-up calculation.
 - **Interleaving String**: Tricky boolean 2D-DP state mapping.
 - **Burst Balloons / Minimum Cost Tree**: Classic Matrix Chain Multiplication structures where you evaluate all possible partition points `k` between `i` and `j` ($O(N^3)$ complexity).
+
+## Pro Tip
+For "Two String" DP problems (like LCS or Edit Distance), the `dp[i][j]` state usually represents the answer for prefixes `str1[0...i]` and `str2[0...j]`. If you only need the previous row of the DP table, you can optimize space to **$O(\min(N, M))$** by using two rows instead of a full matrix.

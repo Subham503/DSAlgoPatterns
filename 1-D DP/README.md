@@ -30,3 +30,6 @@ These lay the absolute foundation for state transitions.
 - **Last Stone Weight II**: Converting a physical interaction game into a Mathematical 0/1 Knapsack problem.
 - **Russian Doll Envelopes**: Combining 2D Sorting with 1-D LIS (can be optimized to $O(N \log N)$ using Binary Search + DP!).
 - **Ones and Zeroes**: Multi-dimensional constraints applied over a 1-D sequence constraint.
+
+## Pro Tip
+If you find yourself using a `dp[i]` array but only referencing `dp[i-1]` or `dp[i-2]`, you can optimize your space from **$O(N)$ to $O(1)$** by using just two or three variables (e.g., `prev1`, `prev2`, `curr`). This is a common requirement in "Hard" interview versions of problems like House Robber or Fibonacci.
