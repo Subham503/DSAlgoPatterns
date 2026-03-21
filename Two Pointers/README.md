@@ -29,3 +29,6 @@ A brute force pair-finding algorithm tests all pairs using nested loops ($O(N^2)
 - **Trapping Rain Water**: Pre-computing max-left arrays OR using two pointers intelligently from the edges.
 - **Reverse Nodes in k-Group**: Complex pointer manipulation in linked lists. Maintain state across $K$ nodes.
 - **Linked List Cycle II**: Floyd's Cycle Detection math to find the start of a cycle.
+
+## Pro Tip
+When the problem says "Sorted Array", think **Collision Pointers (Left & Right)**. When the problem says "Linked List", think **Fast & Slow Pointers**. These two heuristics cover 90% of Two Pointer interview questions.

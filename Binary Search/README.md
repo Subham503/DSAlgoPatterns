@@ -30,3 +30,6 @@ Instead of a linear scan $O(N)$ to find an element or test an answer, you cut th
 - **Split Array Largest Sum**: Binary searching a theoretical answer (the max sum).
 - **Find in Mountain Array**: Ternary search concepts mapped to Binary Search (finding the peak, then searching the slopes).
 - **Median of Two Sorted Arrays**: Finding a partition point across two arrays simultaneously in $O(\log(\min(N,M)))$.
+
+## Pro Tip
+If the search space is large ($10^9$) but the condition is monotonic (e.g., "If I can ship X, I can definitely ship X+1"), **Binary Search on the Answer**. Define your `check(mid)` function first, then wrap the template around it.

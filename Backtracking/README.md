@@ -27,3 +27,6 @@ These problems establish the fundamental "Choose -> Explore -> Unchoose" templat
 ### 3. `_advanced` (Hard Constraints & Combinations)
 - **Palindrome Partitioning**: Combining Backtracking with string substring validation.
 - **Sudoku Solver & N-Queens**: The ultimate constraint-satisfaction problems involving complex board-state maintenance.
+
+## Pro Tip
+Visualizing Backtracking as a **State Space Tree** is key. At every recursive call, ask: "What are my choices?". Before recursing, **Choose**. After recursing, **Unchoose** (Undo). If you forget to undo, your state will be corrupted for the next branch!

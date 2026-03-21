@@ -31,3 +31,6 @@ These problems establish the fundamental "Trade Space for Time" concept.
 - **Maximum Product Subarray**: Introduces keeping track of both min and max to handle negative products.
 - **Number of Ways to Split Array**: Advanced prefix sum manipulation.
 - **Range Sum Query 2D**: Expands prefix sums into a 2D matrix.
+
+## Pro Tip
+When using a Hash Map for frequency counting, always check if you can use a fixed-size integer array `int[26]` for lowercase alphabet problems to save heap overhead and improve cache locality.
